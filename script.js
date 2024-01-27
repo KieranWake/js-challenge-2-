@@ -9,6 +9,10 @@
 //All test arrays will have at least one element and are valid.
 
 function minMax(arr) {
-    
-	
+    const minVal = Math.min(...arr);
+    const maxVal = Math.max(...arr);
+
+    return [minVal, maxVal];
 }
+
+console.log(minMax("ordered array"));
