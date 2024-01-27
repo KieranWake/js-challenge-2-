@@ -15,4 +15,4 @@ function minMax(arr) {
     return [minVal, maxVal];
 }
 
-console.log(minMax("ordered array"));
+console.log(minMax([230, 34, 56, 70, 330])); 
